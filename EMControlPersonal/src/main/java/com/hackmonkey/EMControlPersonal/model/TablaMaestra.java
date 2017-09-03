@@ -78,7 +78,6 @@ public class TablaMaestra implements Serializable{
 
 	public TablaMaestra() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Long getIdTablaMaestra() {
