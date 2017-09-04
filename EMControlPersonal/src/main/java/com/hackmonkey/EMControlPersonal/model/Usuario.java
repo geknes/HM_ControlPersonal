@@ -63,5 +63,93 @@ public class Usuario implements Serializable{
 		// TODO Auto-generated constructor stub
 	}
 
+	public Long getIdUsuario() {
+		return idUsuario;
+	}
+
+	public void setIdUsuario(Long idUsuario) {
+		this.idUsuario = idUsuario;
+	}
+
+	public Integer getIdSituacionUsuario() {
+		return idSituacionUsuario;
+	}
+
+	public void setIdSituacionUsuario(Integer idSituacionUsuario) {
+		this.idSituacionUsuario = idSituacionUsuario;
+	}
+
+	public String getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public Boolean getEstado() {
+		return estado;
+	}
+
+	public void setEstado(Boolean estado) {
+		this.estado = estado;
+	}
+
+	public Long getIdUsuarioRegistro() {
+		return idUsuarioRegistro;
+	}
+
+	public void setIdUsuarioRegistro(Long idUsuarioRegistro) {
+		this.idUsuarioRegistro = idUsuarioRegistro;
+	}
+
+	public Date getFechaRegistro() {
+		return fechaRegistro;
+	}
+
+	public void setFechaRegistro(Date fechaRegistro) {
+		this.fechaRegistro = fechaRegistro;
+	}
+
+	public String getHostRegistro() {
+		return hostRegistro;
+	}
+
+	public void setHostRegistro(String hostRegistro) {
+		this.hostRegistro = hostRegistro;
+	}
+
+	public Long getIdUsuarioModificacion() {
+		return idUsuarioModificacion;
+	}
+
+	public void setIdUsuarioModificacion(Long idUsuarioModificacion) {
+		this.idUsuarioModificacion = idUsuarioModificacion;
+	}
+
+	public Date getFechaModificacion() {
+		return fechaModificacion;
+	}
+
+	public void setFechaModificacion(Date fechaModificacion) {
+		this.fechaModificacion = fechaModificacion;
+	}
+
+	public String getHostModificacion() {
+		return hostModificacion;
+	}
+
+	public void setHostModificacion(String hostModificacion) {
+		this.hostModificacion = hostModificacion;
+	}
+
 	
 }
