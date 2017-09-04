@@ -58,4 +58,10 @@ public class Usuario implements Serializable{
 	@Column(name="hostModificacion")
 	private String hostModificacion;
 
+	public Usuario() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	
 }
